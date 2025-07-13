@@ -5,8 +5,8 @@
     }
   },
   "env": {
-    "SUPABASE_URL": "@supabase-url",
-    "SUPABASE_ANON_KEY": "@supabase-anon-key",
-    "MONGODB_URI": "@mongodb-uri"
+    "SUPABASE_URL": "https://eahwlzgsksrfdxtdlehb.supabase.co",
+    "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVhaHdsemdza3NmcmR4dGRsZWhiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEzNTMxMDUsImV4cCI6MjA2NjkyOTEwNX0.ddACIIFqXLpazagW7CH6AktYpfACA23Q0TUUTCIAcp4",
+    "MONGODB_URI": "mongodb+srv://nexium-mongo:miNP.R-._d6axPi@nexium-mongo.fkoi88u.mongodb.net/myDatabase?retryWrites=true&w=majority"
   }
 }
