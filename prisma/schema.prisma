@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model BlogSummary {
+  id                 String   @id @default(cuid())
+  url                String   @unique
+  title              String?
+  author             String?
+  original_summary   String   @db.Text
+  translated_summary String   @db.Text
+  target_language    String
+  processing_time    Int
+  created_at         DateTime @default(now())
+  updated_at         DateTime @updatedAt
+
+  @@map("blog_summaries")
+}
