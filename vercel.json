@@ -5,9 +5,6 @@
     }
   },
   "env": {
-    "AZURE_TRANSLATOR_KEY": "@azure-translator-key",
-    "AZURE_TRANSLATOR_ENDPOINT": "@azure-translator-endpoint", 
-    "AZURE_TRANSLATOR_REGION": "@azure-translator-region",
     "SUPABASE_URL": "@supabase-url",
     "SUPABASE_ANON_KEY": "@supabase-anon-key",
     "MONGODB_URI": "@mongodb-uri"
