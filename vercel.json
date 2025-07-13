@@ -8,9 +8,9 @@
     "SUPABASE_URL": "https://eahwlzgsksrfdxtdlehb.supabase.co",
     "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVhaHdsemdza3NmcmR4dGRsZWhiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEzNTMxMDUsImV4cCI6MjA2NjkyOTEwNX0.ddACIIFqXLpazagW7CH6AktYpfACA23Q0TUUTCIAcp4",
     "MONGODB_URI": "mongodb+srv://nexium-mongo:miNP.R-._d6axPi@nexium-mongo.fkoi88u.mongodb.net/myDatabase?retryWrites=true&w=majority",
-    "AZURE_TRANSLATOR_ENDPOINT"="https://api.cognitive.microsofttranslator.com/",
-    "AZURE_TRANSLATOR_KEY"="CggLGUUEhbPGTunSblgbItQobUxbQ8vLiQ4Avq1DQr7Yn1cdgdGYJQQJ99BGACqBBLyXJ3w3AAAbACOGeLqw",
-    "AZURE_TRANSLATOR_REGION"="southeastasia"
+    "AZURE_TRANSLATOR_ENDPOINT"=https://api.cognitive.microsofttranslator.com/,
+    "AZURE_TRANSLATOR_KEY"=CggLGUUEhbPGTunSblgbItQobUxbQ8vLiQ4Avq1DQr7Yn1cdgdGYJQQJ99BGACqBBLyXJ3w3AAAbACOGeLqw,
+    "AZURE_TRANSLATOR_REGION"=southeastasia
   },
   "build": {
     "env": {
