@@ -18,7 +18,7 @@ A full stack web application that scrapes blog content, generates summaries, and
    ```bash
    npm install
 
-   npm generate prisma
+   npx prisma generate
 
    npm run build
 
