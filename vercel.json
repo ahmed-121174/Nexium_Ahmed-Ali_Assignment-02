@@ -10,7 +10,8 @@
     "MONGODB_URI": "mongodb+srv://nexium-mongo:miNP.R-._d6axPi@nexium-mongo.fkoi88u.mongodb.net/myDatabase?retryWrites=true&w=majority",
     "AZURE_TRANSLATOR_ENDPOINT": "https://api.cognitive.microsofttranslator.com/",
     "AZURE_TRANSLATOR_KEY": "CggLGUUEhbPGTunSblgbItQobUxbQ8vLiQ4Avq1DQr7Yn1cdgdGYJQQJ99BGACqBBLyXJ3w3AAAbACOGeLqw",
-    "AZURE_TRANSLATOR_REGION": "southeastasia"
+    "AZURE_TRANSLATOR_REGION": "southeastasia",
+    "DATABASE_URL": "postgresql://postgres:%40121174Aa@db.eahwlzgsksfrdxtdlehb.supabase.co:5432/postgres"
   },
   "build": {
     "env": {
