@@ -4,22 +4,43 @@ A full stack web application that scrapes blog content, generates summaries, and
 
 ## Features
 
-- ✅ URL validation and web scraping
-- ✅ AI-powered text summarization
-- ✅ Multi-language translation (Azure Translator + JS Dictionary)
-- ✅ Dual database storage (Supabase + MongoDB)
-- ✅ Modern Next.js 14 frontend
-- ✅ Responsive design with Tailwind CSS
+- URL validation and web scraping
+- AI powered text summarization
+- Multi language translation (Azure Translator + JS Dictionary)
+- Dual database storage (Supabase + MongoDB)
+- Modern Next.js 14 frontend
+- Responsive design with Tailwind CSS
 
 
 ## Setup
 
 **Install dependencies**:
    ```bash
-   npm install
+   npm install --legacy-peer-deps
+   npm install next@^15.3.5 react@^19.1.0 react-dom@^19.1.0 --legacy-peer-deps
+   npm install prisma@^6.11.1 @prisma/client@^6.11.1 --legacy-peer-deps
+   npm install @supabase/supabase-js@^2.50.5 --legacy-peer-deps
+   npm install mongodb@^6.17.0 --legacy-peer-deps
+   npm install axios@^1.10.0 --legacy-peer-deps
+   npm install cheerio@^1.1.0 --legacy-peer-deps
+   npm install react-hook-form@^7.60.0 --legacy-peer-deps
+   npm install @hookform/resolvers@^3.10.0 --legacy-peer-deps
+   npm install zod@^3.25.76 --legacy-peer-deps
+   npm install tailwindcss@^3.4.17 --legacy-peer-deps
+   npm install postcss@^8.5.6 --legacy-peer-deps
+   npm install autoprefixer@^10.4.21 --legacy-peer-deps
+   npm install tailwind-merge@^2.6.0 --legacy-peer-deps
+   npm install class-variance-authority@^0.7.1 --legacy-peer-deps
+   npm install clsx@^2.1.1 --legacy-peer-deps
+   npm install lucide-react@^0.294.0 --legacy-peer-deps
+   npm install dotenv@^17.2.0 --legacy-peer-deps
+   npm install eslint@^8.57.1 eslint-config-next@^14.0.0 --save-dev --legacy-peer-deps
+   npm install @types/node --save-dev --legacy-peer-deps
+   npm install @radix-ui/react-select @radix-ui/react-dialog --legacy-peer-deps
+   npm install winston --legacy-peer-deps
+   npm install validator --legacy-peer-deps
 
    npx prisma generate
-
    npm run build
 
    npm run dev
