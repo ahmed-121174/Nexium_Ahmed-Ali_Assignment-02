@@ -1,4 +1,4 @@
-# Blog Summarizer & Translator| @NEXIUMS AHMED ALI
+# Blog Summarizer & Translator| @NEXIUM AHMED ALI
 
 A full stack web application that scrapes blog content, generates summaries, and translates them to multiple languages.
 
